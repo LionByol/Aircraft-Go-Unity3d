@@ -1,0 +1,23 @@
+2.4:
+Fixes:
+Unity5 compilation for WP8 fixes
+
+1.4:
+Flash Like event system now use own namespace: UnionAssets.FLE
+
+Updates:
+Popups API C# Actions Added
+In-Apps API  C# Actions Added
+
+Read more about update:
+http://goo.gl/iGXN8j
+
+1.3:
+In Apps: New getter added to API
+
+1.2
+Pop ups Fixed
+Visual Studio project added
+
+1.1
+Small code refacotr

@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 33ed8744718ea4158963dd0624280601
+timeCreated: 1472031384
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: plane3_0
+    21300002: plane3_1
+    21300004: plane3_2
+    21300006: plane3_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: plane3_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 275
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.5, y: 110}
+        - {x: 136.5, y: 113}
+        - {x: -56.5, y: 113}
+        - {x: -137.5, y: 91}
+        - {x: -137.5, y: -47}
+        - {x: -58.5, y: -113}
+        - {x: 46.5, y: -113}
+        - {x: 46.5, y: -102}
+        - {x: 137.5, y: -6}
+    - name: plane3_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 275
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.5, y: 113}
+        - {x: -137.5, y: 113}
+        - {x: -137.5, y: -78}
+        - {x: -115.5, y: -113}
+        - {x: 46.5, y: -113}
+        - {x: 46.5, y: -102}
+        - {x: 137.5, y: 24}
+    - name: plane3_2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 275
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: 113}
+        - {x: -35.5, y: 113}
+        - {x: -39.5, y: 104}
+        - {x: -32.5, y: 100}
+        - {x: -137.5, y: 110}
+        - {x: -137.5, y: -71}
+        - {x: -119.5, y: -113}
+        - {x: 46.5, y: -113}
+        - {x: 46.5, y: -102}
+        - {x: 137.5, y: 27}
+        - {x: 137.5, y: 107}
+    - name: plane3_3
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 0
+        width: 275
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.5, y: 102}
+        - {x: 133.5, y: 113}
+        - {x: -137.5, y: 113}
+        - {x: -137.5, y: -78}
+        - {x: -121.5, y: -113}
+        - {x: 46.5, y: -113}
+        - {x: 46.5, y: -102}
+        - {x: 137.5, y: 2}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1506 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_AmbientEquatorColor: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_AmbientGroundColor: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 1
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666657
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &162296916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 162296918}
+  - 114: {fileID: 162296917}
+  m_Layer: 0
+  m_Name: Iterstisials
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &162296917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162296916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: 46534d
+    startState: 53746174652031
+    states:
+    - name: 53746174652031
+      description: 
+      colorIndex: 0
+      position:
+        x: 50
+        y: 100
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 4f6e427574746f6e436c69636b
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 5374617274204164
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e475549427574746f6e
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 4cc8fcef
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 537461727420496e7465727374697369616c73
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 427574746f6e
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        fsmVarParams: []
+        byteData:
+        - 79
+        - 110
+        - 66
+        - 117
+        - 116
+        - 116
+        - 111
+        - 110
+        - 67
+        - 108
+        - 105
+        - 99
+        - 107
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 205
+        - 204
+        - 76
+        - 61
+        - 0
+        - 205
+        - 204
+        - 204
+        - 61
+        - 0
+        - 205
+        - 204
+        - 76
+        - 62
+        - 0
+        - 205
+        - 204
+        - 204
+        - 61
+        - 0
+        - 1
+        - 0
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1700000011000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramName:
+        - 73656e644576656e74
+        - 73746f7265427574746f6e5374617465
+        - 696d616765
+        - 74657874
+        - 746f6f6c746970
+        - 7374796c65
+        - 73637265656e52656374
+        - 6c656674
+        - 746f70
+        - 7769647468
+        - 686569676874
+        - 6e6f726d616c697a6564
+        paramDataPos: 000000000d000000000000000000000001000000020000000f00000020000000250000002a0000002f00000034000000
+        paramByteDataSize: 0d0000000200000000000000000000000000000000000000110000000500000005000000050000000500000002000000
+    - name: 5374617274204164
+      description: 
+      colorIndex: 0
+      position:
+        x: 405
+        y: 120
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 41644c6f61646564
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 53746174652031
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f5374617274496e7465727374697369616c4164
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 0c85f1bf
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        - 65
+        - 100
+        - 76
+        - 111
+        - 97
+        - 100
+        - 101
+        - 100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1700000017000000
+        paramName:
+        - 737563636573734576656e74
+        - 6661696c4576656e74
+        paramDataPos: 0000000008000000
+        paramByteDataSize: 0800000000000000
+    events:
+    - name: 41644c6f61646564
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 4f6e427574746f6e436c69636b
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName: 
+  fsmTemplate: {fileID: 0}
+--- !u!4 &162296918
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162296916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!1 &186045285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 186045287}
+  - 114: {fileID: 186045286}
+  m_Layer: 0
+  m_Name: BnnaerAd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &186045286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 186045285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: 46534d
+    startState: 53746174652031
+    states:
+    - name: 53746174652031
+      description: 
+      colorIndex: 0
+      position:
+        x: 50
+        y: 100
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 4f6e427574746f6e436c69636b
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 5374617274204164
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e475549427574746f6e
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 4cc8fcef
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 4372656174652042616e6e6572
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 427574746f6e
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        fsmVarParams: []
+        byteData:
+        - 79
+        - 110
+        - 66
+        - 117
+        - 116
+        - 116
+        - 111
+        - 110
+        - 67
+        - 108
+        - 105
+        - 99
+        - 107
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 205
+        - 204
+        - 76
+        - 61
+        - 0
+        - 0
+        - 0
+        - 128
+        - 62
+        - 0
+        - 205
+        - 204
+        - 76
+        - 62
+        - 0
+        - 205
+        - 204
+        - 204
+        - 61
+        - 0
+        - 1
+        - 0
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1700000011000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramName:
+        - 73656e644576656e74
+        - 73746f7265427574746f6e5374617465
+        - 696d616765
+        - 74657874
+        - 746f6f6c746970
+        - 7374796c65
+        - 73637265656e52656374
+        - 6c656674
+        - 746f70
+        - 7769647468
+        - 686569676874
+        - 6e6f726d616c697a6564
+        paramDataPos: 000000000d000000000000000000000001000000020000000f00000020000000250000002a0000002f00000034000000
+        paramByteDataSize: 0d0000000200000000000000000000000000000000000000110000000500000005000000050000000500000002000000
+    - name: 5374617274204164
+      description: 
+      colorIndex: 0
+      position:
+        x: 405
+        y: 120
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 41644c6f61646564
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 4869646520427574746f6e
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f43726561746542616e6e6572
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: e5341718
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 67
+        - 117
+        - 114
+        - 114
+        - 101
+        - 116
+        - 110
+        - 66
+        - 97
+        - 110
+        - 110
+        - 101
+        - 114
+        - 73
+        - 100
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 65
+        - 100
+        - 76
+        - 111
+        - 97
+        - 100
+        - 101
+        - 100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000000100000007000000070000000100000010000000100000001700000017000000
+        paramName:
+        - 62616e6e65724964
+        - 53686f7742616e6e65724f6e4c6f6164
+        - 616e63686f72
+        - 73697a65
+        - 43726561746557697468436f6f726473
+        - 58436f6f7264
+        - 59436f6f7264
+        - 737563636573734576656e74
+        - 6661696c4576656e74
+        paramDataPos: 000000001400000015000000190000001d0000001e000000230000002800000030000000
+        paramByteDataSize: 140000000100000004000000040000000100000005000000050000000800000000000000
+    - name: 4869646520427574746f6e
+      description: 
+      colorIndex: 0
+      position:
+        x: 202
+        y: 262
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 4f6e427574746f6e436c69636b
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 486964652062616e6e6572
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e475549427574746f6e
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 4cc8fcef
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 486964652062616e6e6572
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 427574746f6e
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        fsmVarParams: []
+        byteData:
+        - 79
+        - 110
+        - 66
+        - 117
+        - 116
+        - 116
+        - 111
+        - 110
+        - 67
+        - 108
+        - 105
+        - 99
+        - 107
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 205
+        - 204
+        - 76
+        - 61
+        - 0
+        - 0
+        - 0
+        - 128
+        - 62
+        - 0
+        - 205
+        - 204
+        - 76
+        - 62
+        - 0
+        - 205
+        - 204
+        - 204
+        - 61
+        - 0
+        - 1
+        - 0
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1700000011000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramName:
+        - 73656e644576656e74
+        - 73746f7265427574746f6e5374617465
+        - 696d616765
+        - 74657874
+        - 746f6f6c746970
+        - 7374796c65
+        - 73637265656e52656374
+        - 6c656674
+        - 746f70
+        - 7769647468
+        - 686569676874
+        - 6e6f726d616c697a6564
+        paramDataPos: 000000000d000000000000000000000001000000020000000f00000020000000250000002a0000002f00000034000000
+        paramByteDataSize: 0d0000000200000000000000000000000000000000000000110000000500000005000000050000000500000002000000
+    - name: 486964652062616e6e6572
+      description: 
+      colorIndex: 0
+      position:
+        x: 197.3125
+        y: 350.851562
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 46494e4953484544
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: 53686f7720427574746f6e
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f4869646542616e6e6572
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 1b32a229
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 67
+        - 117
+        - 114
+        - 114
+        - 101
+        - 116
+        - 110
+        - 66
+        - 97
+        - 110
+        - 110
+        - 101
+        - 114
+        - 73
+        - 100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 10000000
+        paramName:
+        - 62616e6e65724964
+        paramDataPos: 00000000
+        paramByteDataSize: 14000000
+    - name: 53686f7720427574746f6e
+      description: 
+      colorIndex: 0
+      position:
+        x: 484
+        y: 258
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 4f6e427574746f6e436c69636b
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: 53686f772062616e6e6572
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e475549427574746f6e
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 4cc8fcef
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 53686f77202062616e6e6572
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 427574746f6e
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        fsmVarParams: []
+        byteData:
+        - 79
+        - 110
+        - 66
+        - 117
+        - 116
+        - 116
+        - 111
+        - 110
+        - 67
+        - 108
+        - 105
+        - 99
+        - 107
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 154
+        - 153
+        - 153
+        - 62
+        - 0
+        - 0
+        - 0
+        - 128
+        - 62
+        - 0
+        - 205
+        - 204
+        - 76
+        - 62
+        - 0
+        - 205
+        - 204
+        - 204
+        - 61
+        - 0
+        - 1
+        - 0
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1700000011000000210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramName:
+        - 73656e644576656e74
+        - 73746f7265427574746f6e5374617465
+        - 696d616765
+        - 74657874
+        - 746f6f6c746970
+        - 7374796c65
+        - 73637265656e52656374
+        - 6c656674
+        - 746f70
+        - 7769647468
+        - 686569676874
+        - 6e6f726d616c697a6564
+        paramDataPos: 000000000d000000000000000000000001000000020000000f00000020000000250000002a0000002f00000034000000
+        paramByteDataSize: 0d0000000200000000000000000000000000000000000000110000000500000005000000050000000500000002000000
+    - name: 53686f772062616e6e6572
+      description: 
+      colorIndex: 0
+      position:
+        x: 479.429688
+        y: 348.375
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 46494e4953484544
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: 4869646520427574746f6e
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f53686f7742616e6e6572
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 1b32a229
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+        - 67
+        - 117
+        - 114
+        - 114
+        - 101
+        - 116
+        - 110
+        - 66
+        - 97
+        - 110
+        - 110
+        - 101
+        - 114
+        - 73
+        - 100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 10000000
+        paramName:
+        - 62616e6e65724964
+        paramDataPos: 00000000
+        paramByteDataSize: 14000000
+    events:
+    - name: 46494e4953484544
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: 41644c6f61646564
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 4f6e427574746f6e436c69636b
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables:
+      - useVariable: 1
+        name: 4375727265746e42616e6e65724964
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName: 
+  fsmTemplate: {fileID: 0}
+--- !u!4 &186045287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 186045285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+--- !u!1 &523134722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 523134727}
+  - 20: {fileID: 523134726}
+  - 92: {fileID: 523134725}
+  - 124: {fileID: 523134724}
+  - 81: {fileID: 523134723}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &523134723
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523134722}
+  m_Enabled: 1
+--- !u!124 &523134724
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523134722}
+  m_Enabled: 1
+--- !u!92 &523134725
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523134722}
+  m_Enabled: 1
+--- !u!20 &523134726
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523134722}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &523134727
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 523134722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1078484490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1078484491}
+  m_Layer: 0
+  m_Name: Banner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1078484491
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1078484490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!1 &1171570564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1171570566}
+  - 114: {fileID: 1171570565}
+  m_Layer: 0
+  m_Name: init
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1171570565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171570564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: 46534d
+    startState: 496e6974
+    states:
+    - name: 496e6974
+      description: 
+      colorIndex: 0
+      position:
+        x: 50
+        y: 100
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 46494e4953484544
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: 4164642041642053657474696e6773
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f496e6974476f6f676c654164
+        customNames:
+        - 
+        actionEnabled:
+        - 1
+        actionIsOpen:
+        - 1
+        actionStartIndex: 00000000
+        actionHashCodes: 00000000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: 4164642041642053657474696e6773
+      description: 
+      colorIndex: 0
+      position:
+        x: 304
+        y: 185
+        width: 121
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f5365744164546172676574696e67
+        - 4875746f6e6747616d65732e506c61794d616b65722e416374696f6e732e4741445f53657441645465737444657669636573
+        customNames:
+        - 
+        - 
+        actionEnabled:
+        - 1
+        - 1
+        actionIsOpen:
+        - 1
+        - 1
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 3d5aa413878cc25a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        - 0
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        arrayParamSizes: 0000000000000000
+        arrayParamTypes:
+        - 4875746f6e6747616d65732e506c61794d616b65722e46736d537472696e67
+        - 4875746f6e6747616d65732e506c61794d616b65722e46736d537472696e67
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c0000000100000007000000010000001000000007000000100000000c000000
+        paramName:
+        - 6b6579776f726473
+        - 746167466f724368696c64446972656374656454726561746d656e74
+        - 67656e646572
+        - 7365744269727468646179
+        - 646179
+        - 6d6f6e7468
+        - 79656172
+        - 64657669636573496473
+        paramDataPos: 00000000000000000100000005000000060000000b0000000f00000001000000
+        paramByteDataSize: 0000000001000000040000000100000005000000040000000500000000000000
+    events:
+    - name: 46494e4953484544
+      isSystemEvent: 1
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName: 
+  fsmTemplate: {fileID: 0}
+--- !u!4 &1171570566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171570564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &1972739730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1972739732}
+  - 114: {fileID: 1972739731}
+  m_Layer: 0
+  m_Name: PlayMakerGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1972739731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972739730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewOnGUI: 1
+  enableGUILayout: 1
+  drawStateLabels: 1
+  GUITextureStateLabels: 1
+  GUITextStateLabels: 1
+  filterLabelsWithDistance: 0
+  maxLabelDistance: 10
+  controlMouseCursor: 1
+--- !u!4 &1972739732
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972739730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
